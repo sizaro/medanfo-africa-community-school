@@ -772,10 +772,10 @@ export class ParentsService {
       .replace(/[^a-z0-9]+/g, '.')
       .replace(/^\.|\.$/g, '');
     const base = `${clean(firstName) || 'guardian'}.${clean(lastName) || 'parent'}.guardian`;
-    let candidate = `${base}@mhs.com`;
+    let candidate = `${base}@macs.com`;
     let suffix = 2;
     while (await this.prisma.user.findUnique({ where: { email: candidate }, select: { id: true } })) {
-      candidate = `${base}${suffix}@mhs.com`;
+      candidate = `${base}${suffix}@macs.com`;
       suffix += 1;
     }
     return candidate;

@@ -11,7 +11,7 @@ async function bootstrap() {
     .map((origin) => origin.trim().replace(/\/$/, ''))
     .filter(Boolean);
   const allowedOrigins = new Set([
-    'https://mpumudde-high-school.vercel.app',
+    'https://medanfo-africa-community-school.vercel.app',
     ...configuredOrigins,
   ]);
 

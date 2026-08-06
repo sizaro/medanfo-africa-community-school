@@ -10,7 +10,7 @@ const contactDetails = [
     icon: MapPin,
     title: "Visit Us",
     description:
-      "Mpumudde High School campus. Come and experience our learning environment.",
+      "Medanfo Africa Community School campus. Come and experience our learning environment.",
   },
   {
     icon: Phone,
@@ -22,7 +22,7 @@ const contactDetails = [
     icon: Mail,
     title: "Email Us",
     description:
-      "info@mpumuddehighschool.com",
+      "info@medanfocommunityschool",
   },
   {
     icon: Clock,
@@ -49,7 +49,7 @@ export default function ContactVisit() {
 
           <p className="mx-auto mt-6 max-w-3xl leading-8 text-slate-600 dark:text-slate-300">
             Whether you are a parent, student, or partner, our team is ready to
-            provide information and help you learn more about Mpumudde High
+            provide information and help you learn more about Medanfo Africa
             School.
           </p>
         </div>

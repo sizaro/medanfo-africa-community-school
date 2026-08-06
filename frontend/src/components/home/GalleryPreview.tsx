@@ -28,7 +28,7 @@ export default function GalleryPreview() {
             </span>
 
             <h2 className="section-title mt-6">
-              Life at Mpumudde High School
+              Life at Medanfo Africa Community School
             </h2>
 
             <p className="section-lead mt-4">

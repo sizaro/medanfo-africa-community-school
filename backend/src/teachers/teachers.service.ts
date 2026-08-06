@@ -145,7 +145,7 @@ export class TeachersService {
           teachingAssignments: { create: [...new Set(subjectIds)].map((subjectId) => ({ subjectId })) },
           emergencyContacts: { create: contacts.map((contact) => ({ ...contact, isNextOfKin: contact.isNextOfKin ?? false })) },
           employment: hasEmploymentInfo ? { create: {
-            employeeNumber: employment?.employeeNumber || `MHS-${Date.now()}-${Math.floor(Math.random() * 10000)}`,
+            employeeNumber: employment?.employeeNumber || `MACS-${Date.now()}-${Math.floor(Math.random() * 10000)}`,
             position: employment?.position,
             department: employment?.department,
             employmentType: employment?.employmentType,
@@ -474,7 +474,7 @@ export class TeachersService {
     let suffix = 0;
 
     while (true) {
-      const email = `${base}${suffix || ''}@mhs.com`;
+      const email = `${base}${suffix || ''}@macs.com`;
       const existing = await this.prisma.user.findUnique({ where: { email } });
       if (!existing) return email;
       suffix += 1;

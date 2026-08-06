@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import api from "../../../api/axios";
 import TeacherService, { type EmergencyContact, type EmploymentInfo, type MedicalInfo, type TeacherDocument, type TeacherPersonal } from "../../../services/teacherService";
 
-const DRAFT_KEY = "mhs.teacher-registration-draft.v1";
+const DRAFT_KEY = "macs.teacher-registration-draft.v1";
 const STEPS = ["Personal", "Subjects", "Contacts", "Medical", "Documents", "Employment", "Review"];
 const EMPTY_PERSONAL: TeacherPersonal = { firstName: "", middleName: "", lastName: "", gender: "", dateOfBirth: "", phone: "", email: "", nationality: "", address: "" };
 const EMPTY_CONTACT: EmergencyContact = { fullName: "", relationship: "", phone: "", alternativePhone: "", address: "", isNextOfKin: false };

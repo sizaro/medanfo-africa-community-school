@@ -5,7 +5,7 @@ import SetupService from "../../../services/setupService";
 import StudentService from "../../../services/studentService";
 
 const steps = ["Student Information", "Medical Information", "Parent Information", "Academic Placement", "Fees & Receipt", "Review"];
-const DRAFT_KEY = "mhs.student-registration-draft.v1";
+const DRAFT_KEY = "macs.student-registration-draft.v1";
 const NATIONALITIES = ["Ugandan", "Kenyan", "Tanzanian", "Rwandan", "South Sudanese", "Congolese", "Burundian", "Other"];
 const OCCUPATIONS = ["Self-employed", "Teacher", "Civil servant", "Business owner", "Farmer", "Healthcare worker", "Driver", "Engineer", "Lawyer", "Accountant", "Security personnel", "Unemployed", "Other"];
 

@@ -6,7 +6,7 @@ const achievements = [
     icon: Award,
     title: "School Established",
     description:
-      "Mpumudde High School welcomed its first cohort of students with a vision of academic excellence and character development.",
+      "Medanfo Africa Community School welcomed its first cohort of students with a vision of academic excellence and character development.",
   },
   {
     year: "2015",
@@ -46,7 +46,7 @@ export default function Achievements() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl section-lead">
-            Over the years, Mpumudde High School has continued to grow in
+            Over the years, Medanfo Africa Community School has continued to grow in
             academic performance, infrastructure, leadership, and student
             development.
           </p>

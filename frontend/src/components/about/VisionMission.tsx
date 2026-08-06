@@ -14,7 +14,7 @@ export default function VisionMission() {
           <p className="mx-auto mt-6 max-w-3xl section-lead">
             Our vision inspires where we are going, while our mission defines
             how we serve our students every day. Together, they shape the
-            culture, values, and educational experience at Mpumudde High School.
+            culture, values, and educational experience at Medanfo Africa Community School.
           </p>
         </div>
 

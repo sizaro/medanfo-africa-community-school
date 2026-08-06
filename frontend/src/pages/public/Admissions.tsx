@@ -33,7 +33,7 @@ export default function Admissions() {
         <div className="grid gap-8 p-8 md:p-12 lg:grid-cols-2 lg:items-center">
           <div>
             <span className="section-badge">Admissions</span>
-            <h1 className="section-title">Join Mpumudde High School with a smooth admissions process.</h1>
+            <h1 className="section-title">Join Medanfo Africa Community School with a smooth admissions process.</h1>
             <p className="section-lead">
               Our admissions team supports every family from first inquiry to final enrollment with
               transparent guidance, clear requirements, and timely communication.

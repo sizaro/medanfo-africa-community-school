@@ -1,8 +1,8 @@
 # Public homepage media
 
-Place the approved Mpumudde High School homepage video here as:
+Place the approved Medanfo Africa Community School homepage video here as:
 
-`mpumudde-hero.mp4`
+`medanfo-hero.mp4`
 
 Recommended export:
 

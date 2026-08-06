@@ -33,7 +33,7 @@ export default function HeadteacherWelcome() {
             </h2>
 
             <p className="mt-8 text-lg leading-9 text-slate-600 dark:text-white/70">
-              Welcome to Mpumudde High School.
+              Welcome to Medanfo Africa Community School.
             </p>
 
             <p className="mt-6 section-lead">
@@ -67,7 +67,7 @@ export default function HeadteacherWelcome() {
               </p>
 
               <p className="mt-1 text-sm text-slate-500 dark:text-white/60">
-                Mpumudde High School
+                Medanfo Africa Community School
               </p>
             </div>
           </div>

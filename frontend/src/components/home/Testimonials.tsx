@@ -5,7 +5,7 @@ const testimonials = [
     name: "Sarah N.",
     role: "Former Student",
     message:
-      "Mpumudde High School shaped my discipline and academic focus. The teachers truly care about student success.",
+      "Medanfo Africa Community School shaped my discipline and academic focus. The teachers truly care about student success.",
   },
   {
     name: "Mr. John K.",

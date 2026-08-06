@@ -12,7 +12,7 @@ export const manualNewsroomContent: NewsroomItem[] = [
     id: "story-001", slug: "learning-through-science-and-practical-discovery", type: "article", category: "academics", featured: true,
     title: "Learning Through Science and Practical Discovery", excerpt: "Learners strengthen classroom understanding by observing, testing ideas and explaining what they discover.",
     body: ["Practical learning gives students an opportunity to connect classroom ideas with observation and evidence.", "Through guided activities, learners practise careful thinking, teamwork, recording results and communicating what they have learned.", "The school continues to encourage approaches that make lessons active, purposeful and connected to everyday life."],
-    image: science, imageAlt: "Students taking part in practical science learning", publishedAt: "2026-08-01T09:00:00+03:00", author: "Mpumudde Newsroom", readMinutes: 3, tags: ["Science", "Learning", "Academics"],
+    image: science, imageAlt: "Students taking part in practical science learning", publishedAt: "2026-08-01T09:00:00+03:00", author: "Medanfo Newsroom", readMinutes: 3, tags: ["Science", "Learning", "Academics"],
   },
   {
     id: "story-002", slug: "term-calendar-and-important-school-dates", type: "announcement", category: "announcements", priority: "important",
@@ -54,7 +54,7 @@ export const manualNewsroomContent: NewsroomItem[] = [
     id: "story-008", slug: "student-effort-recognised-across-school-life", type: "article", category: "achievements",
     title: "Student Effort Recognised Across School Life", excerpt: "Progress in academics, leadership, creativity and service deserves thoughtful recognition.",
     body: ["Achievement can appear through strong results, consistent improvement, responsible leadership or service to others.", "Recognising effort encourages learners to keep developing their abilities and habits.", "The school celebrates progress while reminding every student that growth remains an ongoing journey."],
-    image: leadership, imageAlt: "Students celebrating a shared achievement", publishedAt: "2026-07-16T14:05:00+03:00", author: "Mpumudde Newsroom", readMinutes: 2, tags: ["Achievement", "Students", "Recognition"],
+    image: leadership, imageAlt: "Students celebrating a shared achievement", publishedAt: "2026-07-16T14:05:00+03:00", author: "Medanfo Newsroom", readMinutes: 2, tags: ["Achievement", "Students", "Recognition"],
   },
   {
     id: "story-009", slug: "student-clubs-open-new-opportunities", type: "article", category: "student-life",
@@ -72,7 +72,7 @@ export const manualNewsroomContent: NewsroomItem[] = [
     id: "story-011", slug: "school-life-in-pictures", type: "media", category: "media",
     title: "School Life in Pictures", excerpt: "A visual collection highlighting learning, participation, leadership and school community moments.",
     body: ["This media collection brings together selected moments from school life.", "Approved school photographs and videos will replace the temporary editorial media as they become available."],
-    image: leadership, imageAlt: "Students enjoying a school community activity", publishedAt: "2026-07-10T17:00:00+03:00", author: "Mpumudde Newsroom", readMinutes: 1, tags: ["Photos", "Video", "School Life"],
+    image: leadership, imageAlt: "Students enjoying a school community activity", publishedAt: "2026-07-10T17:00:00+03:00", author: "Medanfo Newsroom", readMinutes: 1, tags: ["Photos", "Video", "School Life"],
   },
   {
     id: "story-012", slug: "admissions-enquiries-and-school-visits", type: "announcement", category: "news", priority: "normal",

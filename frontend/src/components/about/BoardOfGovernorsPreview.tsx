@@ -48,7 +48,7 @@ export default function BoardOfGovernorsPreview() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl section-lead">
-            Mpumudde High School is guided by a governance structure committed
+            Medanfo Africa Community School is guided by a governance structure committed
             to accountability, quality education, and the long-term growth of
             the institution.
           </p>

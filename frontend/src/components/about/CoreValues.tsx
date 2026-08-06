@@ -61,7 +61,7 @@ export default function CoreValues() {
 
           <p className="mx-auto mt-6 max-w-3xl section-lead">
             Our values shape the character of our students, influence our
-            decisions, and define the culture of Mpumudde High School.
+            decisions, and define the culture of Medanfo Africa Community School.
           </p>
         </div>
 

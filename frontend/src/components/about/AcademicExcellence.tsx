@@ -48,7 +48,7 @@ export default function AcademicExcellence() {
             </h2>
 
             <p className="mt-8 leading-8 section-lead">
-              At Mpumudde High School, academic excellence is more than
+              At Medanfo Africa Community School, academic excellence is more than
               achieving high grades. We nurture curiosity, creativity,
               discipline, and confidence while equipping students with the
               knowledge and skills required for higher education and the modern

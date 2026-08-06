@@ -268,7 +268,7 @@ export default function GuardianDetailsPage() {
                 type="email"
                 value={loginEmail}
                 onChange={(event) => setLoginEmail(event.target.value)}
-                placeholder="Optional login email; blank generates @mhs.com"
+                placeholder="Optional login email; blank generates @macs.com"
                 className="mt-4 w-full rounded-2xl border px-4 py-3"
               />
               <button

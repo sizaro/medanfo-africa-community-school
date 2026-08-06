@@ -47,7 +47,7 @@ export default function CommunityEngagement() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl section-lead">
-            Mpumudde High School believes education extends beyond the classroom.
+            Medanfo Africa Community School believes education extends beyond the classroom.
             Through service, partnerships, and community involvement, students
             learn the importance of leadership and responsibility.
           </p>

@@ -6,7 +6,7 @@ export default function SchoolOverview() {
         <div className="overflow-hidden rounded-3xl shadow-xl">
           <img
             src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
-            alt="Mpumudde High School students"
+            alt="Medanfo Africa Community School students"
             className="h-[450px] w-full object-cover"
           />
         </div>
@@ -22,7 +22,7 @@ export default function SchoolOverview() {
           </h2>
 
           <p className="section-lead">
-            Mpumudde High School is committed to providing quality education
+            Medanfo Africa Community School is committed to providing quality education
             that develops students academically, socially, and personally.
             Through dedicated teachers, supportive learning environments, and
             strong values, we help learners discover their potential.

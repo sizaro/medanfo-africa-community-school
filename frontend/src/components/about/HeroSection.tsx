@@ -4,7 +4,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <img
           src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1600&q=80"
-          alt="Students learning at Mpumudde High School"
+          alt="Students learning at Medanfo Africa Community School"
           className="h-full w-full object-cover opacity-40"
         />
 
@@ -13,7 +13,7 @@ export default function HeroSection() {
 
       <div className="relative mx-auto max-w-6xl px-6 py-28 text-center">
         <p className="mb-5 text-sm uppercase tracking-[0.3em] text-amber-400">
-          About Mpumudde High School
+          About Medanfo Africa Community School
         </p>
 
         <h1 className="mx-auto max-w-4xl text-4xl font-extrabold leading-tight md:text-6xl text-slate-900 dark:text-white">
@@ -21,7 +21,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-600 dark:text-slate-300">
-          Mpumudde High School provides students with a well-rounded education
+          Medanfo Africa Community School provides students with a well-rounded education
           that blends academic excellence, leadership development, and community
           service. We prepare learners for the future with values, confidence,
           and practical skills.

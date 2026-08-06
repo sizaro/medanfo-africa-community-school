@@ -1,10 +1,10 @@
-﻿import { MapPin, Mail, Phone } from "lucide-react";
+import { MapPin, Mail, Phone } from "lucide-react";
 
 const contactDetails = [
   {
     icon: MapPin,
     label: "Address",
-    value: "Plot 24, Mpumudde Road, Central District, Uganda",
+    value: "Plot 24, Medanfo Road, Central District, Uganda",
   },
   {
     icon: Phone,
@@ -14,7 +14,7 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Email",
-    value: "info@mpumuddehs.ac.ug",
+    value: "info@medanfocommunityschool",
   },
 ];
 
@@ -22,15 +22,14 @@ export default function Contact() {
   return (
     <section className="site-container py-20 space-y-16">
       <header className="space-y-4 text-center">
-        <p className="section-badge">
-          Contact Mpumudde High School
-        </p>
+        <p className="section-badge">Contact Medanfo Africa Community School</p>
         <h1 className="section-title">
-          We’re here to answer your questions and support your school journey.
+          We're here to answer your questions and support your school journey.
         </h1>
         <p className="section-lead mx-auto">
-          Reach out to our admissions team, administration office, or general support
-          staff for information about enrolment, events, or student services.
+          Reach out to our admissions team, administration office, or general
+          support staff for information about enrolment, events, or student
+          services.
         </p>
       </header>
 
@@ -43,7 +42,10 @@ export default function Contact() {
                 key={detail.label}
                 className="glass-card p-8 flex items-start gap-5"
               >
-                <div className="mt-1 rounded-2xl p-4" style={{ background: 'rgba(251, 191, 36, 0.2)' }}>
+                <div
+                  className="mt-1 rounded-2xl p-4"
+                  style={{ background: "rgba(251, 191, 36, 0.2)" }}
+                >
                   <Icon size={24} className="text-amber-400" />
                 </div>
                 <div>
@@ -59,7 +61,9 @@ export default function Contact() {
           })}
 
           <div className="glass-card p-8">
-            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Office Hours</h2>
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">
+              Office Hours
+            </h2>
             <p className="mt-4 leading-7 text-slate-600 dark:text-white/70">
               Monday - Friday: 8:00 AM to 4:00 PM
             </p>
@@ -70,10 +74,12 @@ export default function Contact() {
         </div>
 
         <div className="glass-card-solid p-10">
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white">Send us a message</h2>
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-white">
+            Send us a message
+          </h2>
           <p className="mt-4 leading-7 text-slate-600 dark:text-white/70">
-            Use the form below to send a message to our admissions or support team.
-            We will respond within 1-2 business days.
+            Use the form below to send a message to our admissions or support
+            team. We will respond within 1-2 business days.
           </p>
 
           <form className="mt-10 space-y-6">

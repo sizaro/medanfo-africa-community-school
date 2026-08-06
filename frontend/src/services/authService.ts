@@ -7,7 +7,7 @@ import type {
   User,
 } from '../types/auth';
 
-const ACCESS_TOKEN_KEY = 'mpumudde_access_token';
+const ACCESS_TOKEN_KEY = 'medanfo_access_token';
 
 function setClientToken(token?: string) {
   if (token) api.defaults.headers.common.Authorization = `Bearer ${token}`;

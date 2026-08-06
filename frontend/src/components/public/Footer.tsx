@@ -12,17 +12,41 @@ import {
 import { publicNavigation } from "../../config/publicNavigation";
 
 const socials = [
-  { href: "https://facebook.com/mpumuddehighschool", label: "Facebook", icon: FaFacebook },
-  { href: "https://x.com/mpumuddehs", label: "X", icon: FaXTwitter },
-  { href: "https://instagram.com/mpumuddehighschool", label: "Instagram", icon: FaInstagram },
-  { href: "https://youtube.com/@mpumuddehighschool", label: "YouTube", icon: FaYoutube },
-  { href: "https://www.tiktok.com/@mpumuddehighschool", label: "TikTok", icon: FaTiktok },
   {
-    href: "https://www.linkedin.com/company/mpumudde-high-school",
+    href: "https://facebook.com/medanfocommunityschool",
+    label: "Facebook",
+    icon: FaFacebook,
+  },
+  {
+    href: "https://x.com/medanfocommunityschool",
+    label: "X",
+    icon: FaXTwitter,
+  },
+  {
+    href: "https://instagram.com/medanfocommunityschool",
+    label: "Instagram",
+    icon: FaInstagram,
+  },
+  {
+    href: "https://youtube.com/@medanfocommunityschool",
+    label: "YouTube",
+    icon: FaYoutube,
+  },
+  {
+    href: "https://www.tiktok.com/@medanfocommunityschool",
+    label: "TikTok",
+    icon: FaTiktok,
+  },
+  {
+    href: "https://www.linkedin.com/company/medanfo-africa-community-school",
     label: "LinkedIn",
     icon: FaLinkedin,
   },
-  { href: "https://whatsapp.com/channel/xxxxxxxx", label: "WhatsApp", icon: FaWhatsapp },
+  {
+    href: "https://whatsapp.com/channel/xxxxxxxx",
+    label: "WhatsApp",
+    icon: FaWhatsapp,
+  },
 ];
 
 export default function Footer() {
@@ -30,19 +54,27 @@ export default function Footer() {
     <footer className="relative mt-20">
       <div className="glass-card site-container grid gap-10 py-14 md:grid-cols-2 xl:grid-cols-4">
         <div>
-          <h3 className="text-2xl font-extrabold text-slate-900 dark:text-white">Mpumudde High School</h3>
+          <h3 className="text-2xl font-extrabold text-slate-900 dark:text-white">
+            Medanfo Africa Community School
+          </h3>
           <p className="mt-4 text-sm leading-7 text-slate-600 dark:text-white/70">
-            We equip learners with strong academics, discipline, leadership values, and practical
-            life skills that prepare them for meaningful impact in society.
+            We equip learners with strong academics, discipline, leadership
+            values, and practical life skills that prepare them for meaningful
+            impact in society.
           </p>
         </div>
 
         <div>
-          <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-900 dark:text-white">Explore</h4>
+          <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-900 dark:text-white">
+            Explore
+          </h4>
           <ul className="mt-4 space-y-3 text-sm">
             {publicNavigation.map((link) => (
               <li key={link.to}>
-                <Link to={link.to} className="text-slate-600 dark:text-white/70 transition-colors hover:text-emerald-600 dark:hover:text-emerald-300">
+                <Link
+                  to={link.to}
+                  className="text-slate-600 dark:text-white/70 transition-colors hover:text-emerald-600 dark:hover:text-emerald-300"
+                >
                   {link.label}
                 </Link>
               </li>
@@ -51,19 +83,30 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-900 dark:text-white">Contact</h4>
+          <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-900 dark:text-white">
+            Contact
+          </h4>
           <div className="mt-4 space-y-4 text-sm">
             <p className="flex gap-3 text-slate-600 dark:text-white/70">
-              <MapPin size={18} className="mt-0.5 shrink-0 text-emerald-600 dark:text-emerald-400" />
-              Mpumudde, Jinja District, Uganda
+              <MapPin
+                size={18}
+                className="mt-0.5 shrink-0 text-emerald-600 dark:text-emerald-400"
+              />
+              Medanfo, Jinja District, Uganda
             </p>
             <p className="flex gap-3 text-slate-600 dark:text-white/70">
-              <Phone size={18} className="shrink-0 text-emerald-600 dark:text-emerald-400" />
+              <Phone
+                size={18}
+                className="shrink-0 text-emerald-600 dark:text-emerald-400"
+              />
               +256 312 345 678
             </p>
             <p className="flex gap-3 text-slate-600 dark:text-white/70">
-              <Mail size={18} className="shrink-0 text-emerald-600 dark:text-emerald-400" />
-              info@mpumuddehs.ac.ug
+              <Mail
+                size={18}
+                className="shrink-0 text-emerald-600 dark:text-emerald-400"
+              />
+              info@medanfocommunityschool
             </p>
           </div>
         </div>
@@ -90,15 +133,18 @@ export default function Footer() {
             })}
           </div>
           <p className="mt-5 text-sm leading-6 text-slate-500 dark:text-white/60">
-            Follow our verified channels for admissions updates, announcements, and student
-            achievement stories.
+            Follow our verified channels for admissions updates, announcements,
+            and student achievement stories.
           </p>
         </div>
       </div>
 
       <div className="border-t border-slate-200 dark:border-white/10">
         <div className="site-container flex flex-col items-center justify-between gap-3 py-5 text-xs text-slate-500 dark:text-white/50 md:flex-row">
-          <p>© {new Date().getFullYear()} Mpumudde High School. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Medanfo Africa Community School. All
+            rights reserved.
+          </p>
           <p>
             Developed by{" "}
             <a

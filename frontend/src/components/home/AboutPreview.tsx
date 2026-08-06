@@ -70,7 +70,7 @@ export default function AboutPreview() {
           <div>
 
             <span className="section-badge">
-              ABOUT MPUMUDDE HIGH SCHOOL
+              ABOUT MEDANFO AFRICA COMMUNITY SCHOOL
             </span>
 
             <h2 className="section-title mt-6">
@@ -80,7 +80,7 @@ export default function AboutPreview() {
             </h2>
 
             <p className="section-lead mt-8">
-              Mpumudde High School is committed to providing a holistic education
+              Medanfo Africa Community School is committed to providing a holistic education
               that equips learners with academic excellence, leadership skills,
               discipline, innovation, and strong moral values. We strive to
               prepare students for higher education, meaningful careers, and

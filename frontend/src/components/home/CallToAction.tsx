@@ -16,7 +16,7 @@ export default function CallToAction() {
           {/* Heading */}
 
           <h2 className="section-title text-4xl md:text-5xl">
-            Join Mpumudde High School Today
+            Join Medanfo Africa Community School Today
           </h2>
 
           <p className="mt-6 text-lg max-w-2xl mx-auto text-slate-600 dark:text-white/75">

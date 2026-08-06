@@ -87,7 +87,7 @@ export default function Hero() {
         onPlay={() => setPlaying(true)}
         onPause={() => setPlaying(false)}
         className="absolute inset-0 h-full w-full object-cover"
-        aria-label="Mpumudde High School campus life"
+        aria-label="Medanfo Africa Community School campus life"
       >
         <source src={heroVideo} type="video/mp4" />
       </video>
@@ -116,7 +116,7 @@ export default function Hero() {
             data-hero-reveal
             className="public-hero__copy mt-4 max-w-2xl text-base leading-7 text-slate-200 lg:text-[1.05rem]"
           >
-            Mpumudde High School nurtures knowledgeable, disciplined and
+            Medanfo Africa Community School nurtures knowledgeable, disciplined and
             responsible learners through committed teaching, leadership, talent
             development and a safe school community.
           </p>

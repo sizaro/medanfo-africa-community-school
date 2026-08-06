@@ -44,7 +44,7 @@ export default function CareersPreview() {
           </p>
 
           <h2 className="mt-4 text-4xl font-extrabold text-slate-900 dark:text-white">
-            Build your career with Mpumudde High School.
+            Build your career with Medanfo Africa Community School.
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl section-lead">

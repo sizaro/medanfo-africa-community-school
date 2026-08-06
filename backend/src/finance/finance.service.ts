@@ -259,7 +259,7 @@ export class FinanceService {
   }
 
   private receiptNumber(paymentDate: string) {
-    return `MHS-${paymentDate.slice(0, 10).replace(/-/g, '')}-${crypto.randomUUID().slice(0, 8).toUpperCase()}`;
+    return `MACS-${paymentDate.slice(0, 10).replace(/-/g, '')}-${crypto.randomUUID().slice(0, 8).toUpperCase()}`;
   }
 
   async create(createFinanceDto: CreateFinanceDto, user?: RequestUser) {

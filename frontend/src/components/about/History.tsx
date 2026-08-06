@@ -12,7 +12,7 @@ export default function History() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl section-lead">
-            Every great institution has a story. Mpumudde High School has grown
+            Every great institution has a story. Medanfo Africa Community School has grown
             through dedication, visionary leadership, committed teachers, and a
             supportive community to become a place where students are inspired
             to achieve their full potential.

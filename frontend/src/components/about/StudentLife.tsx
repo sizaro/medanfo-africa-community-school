@@ -61,7 +61,7 @@ export default function StudentLife() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl section-lead">
-            At Mpumudde High School, students enjoy a vibrant school experience
+            At Medanfo Africa Community School, students enjoy a vibrant school experience
             that encourages leadership, creativity, teamwork, service, and
             personal growth alongside academic success.
           </p>

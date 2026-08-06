@@ -3,7 +3,7 @@ export default function Academics() {
     <section className="site-container py-20 space-y-16">
       <header className="space-y-4 text-center">
         <p className="section-badge">
-          Academics at Mpumudde High School
+          Academics at Medanfo Africa Community School
         </p>
         <h1 className="section-title">
           Academic excellence with real-world learning and student support.

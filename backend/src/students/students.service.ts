@@ -433,17 +433,17 @@ export class StudentsService {
       create: { year, nextNumber: 2 },
       update: { nextNumber: { increment: 1 } },
     });
-    return `MHS-${year}-${String(counter.nextNumber - 1).padStart(4, '0')}`;
+    return `MACS-${year}-${String(counter.nextNumber - 1).padStart(4, '0')}`;
   }
 
   private async generateGuardianLoginEmail(tx: any, firstName: string, lastName: string, admissionNumber: string) {
     const clean = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '.').replace(/^\.|\.$/g, '');
     const studentSuffix = admissionNumber.toLowerCase().replace(/[^a-z0-9]+/g, '');
     const base = `${clean(firstName) || 'guardian'}.${clean(lastName) || 'parent'}.${studentSuffix}`;
-    let email = `${base}@mhs.com`;
+    let email = `${base}@macs.com`;
     let suffix = 2;
     while (await tx.user.findUnique({ where: { email }, select: { id: true } })) {
-      email = `${base}.${suffix}@mhs.com`;
+      email = `${base}.${suffix}@macs.com`;
       suffix += 1;
     }
     return email;

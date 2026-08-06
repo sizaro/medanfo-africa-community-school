@@ -35,7 +35,7 @@ function ParentPortalShell() {
                 M
               </div>
               <div>
-                <p className="text-sm font-semibold">Mpumudde High</p>
+                <p className="text-sm font-semibold">Medanfo Africa</p>
                 <p className="text-xs text-slate-400">Parent Portal</p>
               </div>
             </div>

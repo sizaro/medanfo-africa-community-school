@@ -35,8 +35,8 @@ export const heroVideo: VideoConfig = {
     },
   ],
   poster: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1800&q=80",
-  title: "Mpumudde High School Campus",
-  description: "A glimpse into excellence at Mpumudde High School",
+  title: "Medanfo Africa Community School Campus",
+  description: "A glimpse into excellence at Medanfo Africa Community School",
 };
 
 /**

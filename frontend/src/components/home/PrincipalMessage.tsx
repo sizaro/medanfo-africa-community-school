@@ -59,11 +59,11 @@ export default function PrincipalMessage() {
             <h2 className="section-title mt-4">
               Welcome to
               <br />
-              Mpumudde High School
+              Medanfo Africa Community School
             </h2>
 
             <p className="section-lead mt-8">
-              At Mpumudde High School, we believe that education extends beyond
+              At Medanfo Africa Community School, we believe that education extends beyond
               the classroom. Our commitment is to nurture disciplined,
               responsible and innovative learners who are prepared to excel in
               higher education and positively contribute to society.
@@ -96,7 +96,7 @@ export default function PrincipalMessage() {
                 </div>
 
                 <span className="text-slate-700 dark:text-white/80">
-                  principal@mpumudde.ac.ug
+                  principal@medanfocommunityschool
                 </span>
 
               </div>

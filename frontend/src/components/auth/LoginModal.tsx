@@ -67,7 +67,7 @@ export default function LoginModal({ onClose }: LoginModalProps) {
               autoComplete="username"
               value={email}
               onChange={(event) => setEmail(event.target.value)}
-              placeholder="firstname.lastname@mhs.com"
+              placeholder="firstname.lastname@macs.com"
               className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-slate-900 placeholder:text-slate-400 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-200 dark:border-slate-600 dark:bg-slate-800 dark:text-white dark:placeholder:text-slate-400"
               required
               autoFocus

@@ -55,7 +55,7 @@ export default function Gallery() {
           Explore vibrant moments from academics, sports, arts, and student life.
         </h1>
         <p className="section-lead mx-auto">
-          The gallery reflects everyday life at Mpumudde High School: classroom excellence,
+          The gallery reflects everyday life at Medanfo Africa Community School: classroom excellence,
           leadership experiences, clubs, celebrations, and service to the wider community.
         </p>
       </header>
